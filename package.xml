@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>CP_CustomerUniversalPassword</name>
+    <version>0.0.1</version>
+    <stability>devel</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php#sthash.xN3FQKcI.dpuf">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Set Universal Password from Admin to login with customer Email Address</summary>
+    <description>This CommercePundit Extension give you facility to set Universal customer Password from BackEnd , So you can login in Any Customer account in FrontEnd using customer Email and using universal password.</description>
+    <notes>This CommercePundit Extension give you facility to set Universal customer Password from BackEnd , So you can login in Any Customer account in FrontEnd using customer Email and using universal password.</notes>
+    <authors><author><name>Commerce Pundit</name><user>CPExtensions</user><email>support@commercepundit.com</email></author></authors>
+    <date>2015-12-12</date>
+    <time>11:34:46</time>
+    <contents><target name="magecommunity"><dir name="CP"><dir name="CustomerUniversalPassword"><dir name="Helper"><file name="Data.php" hash="d860f18601a9633effbbec77309dbe70"/></dir><dir name="Model"><file name="Customer.php" hash="557fa3ab2fe0d68319c1656e250f4543"/></dir><dir name="etc"><file name="config.xml" hash="6f9c48cfa9733f2e1f25e7adcc46542e"/><file name="system.xml" hash="f81d75a3ce4e6cebd778bf083f7ed360"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="CP_CustomerUniversalPassword.xml" hash="5f99d83e1fd2b8b10d7cd521d89a4f2e"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
